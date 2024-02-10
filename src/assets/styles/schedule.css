@@ -1,0 +1,56 @@
+/* schedule.css */
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: #faeafd;
+    padding: 40px;
+    padding-top:80px;
+    padding-bottom: 80px;
+  }
+  
+
+  .scheduleTitle{
+    font-size: 2.8rem;
+    color: rgb(70, 70, 70);
+    text-transform: uppercase;
+    /* text-shadow: 0 0 65px #9d2eb0; */
+    position: relative;
+    display: inline-block; 
+    margin-bottom:60px;
+    text-align: center;
+  }
+  .day-selector {
+    margin-bottom: 20px;
+  }
+  
+  .day-selector button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .day-selector button.active {
+    background-color: #9d2eb0;
+    color: white;
+  }
+  
+  .activities {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .activities h2 {
+    margin-bottom: 10px;
+  }
+  
+  .time {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+
+  
